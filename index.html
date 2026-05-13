@@ -14,6 +14,16 @@
   nav a { color: #5B5BD6; text-decoration: none; font-size: 14px; font-weight: 500; padding: 6px 16px; border-radius: 20px; transition: background 0.15s; }
   nav a:hover { background: #f0f4ff; }
   nav a.active { background: #5B5BD6; color: white; }
+  .delete-box { background: white; border: 2px solid #e8e8f0; border-radius: 16px; padding: 32px; margin: 24px 0; }
+  .delete-box.danger { border-color: #FF3B3B; background: #fff8f8; }
+  .step { display: flex; gap: 16px; align-items: flex-start; padding: 20px 0; border-bottom: 1px solid #f0f0f8; }
+  .step:last-child { border-bottom: none; }
+  .step-num { background: #5B5BD6; color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 14px; flex-shrink: 0; }
+  .step-text h3 { font-size: 16px; font-weight: 700; color: #1a1a2e; margin-bottom: 4px; }
+  .step-text p { margin: 0; font-size: 14px; color: #555; }
+  .badge { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 13px; font-weight: 600; margin: 4px 4px 4px 0; }
+  .badge-red { background: #fff0f0; color: #CC0000; }
+  .badge-green { background: #f0fff4; color: #1a7a40; }
   .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
   .section { display: none; }
   .section.active { display: block; }
@@ -44,6 +54,7 @@
   <a href="#" class="active" onclick="show('termos', this)">Termos de Serviço</a>
   <a href="#" onclick="show('privacidade', this)">Política de Privacidade</a>
   <a href="#" onclick="show('seguranca', this)">Segurança</a>
+  <a href="#" onclick="show('eliminar', this)">Eliminar Conta</a>
 </nav>
 
 <div class="container">
@@ -267,6 +278,94 @@
 
     <div class="contact">
       <p>Reportar comportamento inadequado ou problema de segurança:</p>
+      <a href="mailto:humberto.ferreira0074@gmail.com">humberto.ferreira0074@gmail.com</a>
+    </div>
+  </div>
+
+  <!-- ELIMINAR CONTA -->
+  <div id="eliminar" class="section">
+    <div class="meta">
+      <span>🗑️ Eliminação de Conta</span>
+      <span>📅 Maio 2026</span>
+    </div>
+
+    <h2>Eliminar a tua conta FanMeet</h2>
+    <p>Podes eliminar a tua conta e todos os dados associados a qualquer momento, de duas formas: diretamente na app ou por email.</p>
+
+    <div class="delete-box">
+      <h3 style="font-size:18px; font-weight:700; margin-bottom:20px;">📱 Opção 1 — Diretamente na app</h3>
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">
+          <h3>Abre o teu Perfil</h3>
+          <p>Clica no ícone de perfil no canto superior direito de qualquer ecrã.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">
+          <h3>Vai a "Apagar conta"</h3>
+          <p>No fundo do ecrã de Perfil encontras a opção "Apagar conta" em texto cinzento.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">
+          <h3>Confirma a eliminação</h3>
+          <p>Aparece uma confirmação — clica em "Sim, apagar conta". A eliminação é imediata e irreversível.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="delete-box">
+      <h3 style="font-size:18px; font-weight:700; margin-bottom:20px;">✉️ Opção 2 — Por email</h3>
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">
+          <h3>Envia um email para</h3>
+          <p><strong>humberto.ferreira0074@gmail.com</strong> com o assunto "Eliminar conta FanMeet"</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">
+          <h3>Indica o teu email de registo</h3>
+          <p>Inclui no email o endereço com que te registaste na app para podermos identificar a conta.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">
+          <h3>Confirmação em 30 dias</h3>
+          <p>Processamos o pedido e confirmamos a eliminação por email no prazo máximo de 30 dias.</p>
+        </div>
+      </div>
+    </div>
+
+    <h2>O que é eliminado</h2>
+    <p>Quando eliminas a tua conta, os seguintes dados são apagados permanentemente:</p>
+    <ul>
+      <li><span class="badge badge-red">Apagado</span> Perfil — username, email, foto, biografia</li>
+      <li><span class="badge badge-red">Apagado</span> Grupos criados por ti (e respetivos membros são notificados)</li>
+      <li><span class="badge badge-red">Apagado</span> Todas as mensagens enviadas e recebidas</li>
+      <li><span class="badge badge-red">Apagado</span> Histórico de proximidades</li>
+      <li><span class="badge badge-red">Apagado</span> Localização GPS armazenada</li>
+      <li><span class="badge badge-red">Apagado</span> Preferências e configurações</li>
+    </ul>
+
+    <h2>O que pode ser retido</h2>
+    <ul>
+      <li><span class="badge badge-green">Retido</span> Reportes que submeteste — retidos por 90 dias para segurança da comunidade</li>
+      <li><span class="badge badge-green">Retido</span> Registos de faturação — se aplicável, retidos 10 anos por obrigação legal</li>
+    </ul>
+
+    <div class="delete-box danger" style="margin-top:32px;">
+      <p style="color:#CC0000; font-weight:700; margin-bottom:8px;">⚠️ Atenção — esta ação é irreversível</p>
+      <p style="margin:0; color:#555; font-size:14px;">A eliminação da conta é permanente. Não é possível recuperar dados após a eliminação. Se quiseres voltar ao FanMeet terás de criar uma nova conta.</p>
+    </div>
+
+    <div class="contact" style="margin-top:32px;">
+      <p>Questões sobre a eliminação de dados?</p>
       <a href="mailto:humberto.ferreira0074@gmail.com">humberto.ferreira0074@gmail.com</a>
     </div>
   </div>
