@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FanMeet — Termos e Privacidade</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8f9ff; color: #1a1a2e; line-height: 1.7; }
+  header { background: #5B5BD6; color: white; padding: 48px 24px 40px; text-align: center; }
+  header h1 { font-size: 32px; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 8px; }
+  header p { font-size: 16px; opacity: 0.85; }
+  nav { background: white; border-bottom: 1px solid #e8e8f0; position: sticky; top: 0; z-index: 10; display: flex; justify-content: center; gap: 4px; padding: 12px 24px; flex-wrap: wrap; }
+  nav a { color: #5B5BD6; text-decoration: none; font-size: 14px; font-weight: 500; padding: 6px 16px; border-radius: 20px; transition: background 0.15s; }
+  nav a:hover { background: #f0f4ff; }
+  nav a.active { background: #5B5BD6; color: white; }
+  .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  .section { display: none; }
+  .section.active { display: block; }
+  .meta { background: white; border: 1px solid #e8e8f0; border-radius: 12px; padding: 16px 20px; margin-bottom: 40px; font-size: 14px; color: #666; display: flex; gap: 24px; flex-wrap: wrap; }
+  .meta span { display: flex; align-items: center; gap: 6px; }
+  h2 { font-size: 22px; font-weight: 700; color: #1a1a2e; margin: 40px 0 12px; padding-bottom: 8px; border-bottom: 2px solid #5B5BD6; }
+  h2:first-of-type { margin-top: 0; }
+  p { margin-bottom: 14px; color: #333; font-size: 15px; }
+  ul { margin: 12px 0 16px 0; padding-left: 0; list-style: none; }
+  ul li { padding: 6px 0 6px 24px; position: relative; font-size: 15px; color: #333; border-bottom: 1px solid #f0f0f8; }
+  ul li:last-child { border-bottom: none; }
+  ul li::before { content: "•"; position: absolute; left: 6px; color: #5B5BD6; font-weight: 700; }
+  .infobox { background: #f0f4ff; border-left: 4px solid #5B5BD6; border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 20px 0; font-size: 14px; color: #444; font-style: italic; }
+  .warning { background: #fff8f0; border-left: 4px solid #FF6B35; border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 20px 0; font-size: 14px; color: #444; }
+  .contact { background: #5B5BD6; color: white; border-radius: 12px; padding: 24px; margin-top: 40px; text-align: center; }
+  .contact a { color: white; font-weight: 600; }
+  footer { text-align: center; padding: 32px 24px; font-size: 13px; color: #999; border-top: 1px solid #e8e8f0; background: white; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>FanMeet</h1>
+  <p>Termos de Serviço &amp; Política de Privacidade</p>
+</header>
+
+<nav>
+  <a href="#" class="active" onclick="show('termos', this)">Termos de Serviço</a>
+  <a href="#" onclick="show('privacidade', this)">Política de Privacidade</a>
+  <a href="#" onclick="show('seguranca', this)">Segurança</a>
+</nav>
+
+<div class="container">
+
+  <!-- TERMOS -->
+  <div id="termos" class="section active">
+    <div class="meta">
+      <span>📄 Versão 1.0</span>
+      <span>📅 Maio 2026</span>
+      <span>👤 Humberto Ferreira</span>
+    </div>
+
+    <h2>1. Aceitação dos Termos</h2>
+    <p>Ao descarregar, instalar ou utilizar a aplicação FanMeet, o utilizador aceita ficar vinculado pelos presentes Termos de Serviço. Se não concordar com estes termos, não deve utilizar a aplicação.</p>
+    <p>O FanMeet é uma aplicação móvel que permite criar e aderir a grupos de interesse e ser notificado quando outros membros estão fisicamente próximos. O serviço é fornecido por Humberto Ferreira, residente em Portugal.</p>
+
+    <h2>2. Elegibilidade</h2>
+    <p>Para utilizar o FanMeet, o utilizador deve:</p>
+    <ul>
+      <li>Ter pelo menos 16 anos de idade</li>
+      <li>Fornecer informações verdadeiras e precisas no registo</li>
+      <li>Não ter sido previamente banido da plataforma</li>
+      <li>Utilizar a aplicação apenas para fins pessoais e não comerciais</li>
+    </ul>
+
+    <h2>3. Conta de Utilizador</h2>
+    <p>O utilizador é responsável por manter a confidencialidade das suas credenciais de acesso e por todas as atividades realizadas na sua conta. Em caso de acesso não autorizado, deve notificar imediatamente através do email <strong>humberto.ferreira0074@gmail.com</strong>.</p>
+    <p>Reservamo-nos o direito de suspender ou encerrar contas que violem estes termos, sem aviso prévio em casos graves.</p>
+
+    <h2>4. Regras de Utilização</h2>
+    <p>O utilizador compromete-se a não utilizar o FanMeet para:</p>
+    <ul>
+      <li>Assediar, ameaçar ou intimidar outros utilizadores</li>
+      <li>Publicar conteúdo falso, enganoso ou fraudulento</li>
+      <li>Partilhar conteúdo ilegal, pornográfico ou que incite ao ódio</li>
+      <li>Fazer-se passar por outra pessoa ou entidade</li>
+      <li>Tentar aceder a sistemas ou dados de outros utilizadores</li>
+      <li>Utilizar a aplicação para fins comerciais sem autorização prévia</li>
+      <li>Criar grupos com nomes ou descrições ofensivas ou que violem direitos de terceiros</li>
+    </ul>
+
+    <h2>5. Conteúdo Gerado pelos Utilizadores</h2>
+    <p>O utilizador mantém a propriedade do conteúdo que publica no FanMeet. Ao publicar conteúdo, concede ao FanMeet uma licença não exclusiva, gratuita e mundial para utilizar, armazenar e exibir esse conteúdo no âmbito do funcionamento da aplicação.</p>
+    <p>Não nos responsabilizamos pelo conteúdo publicado pelos utilizadores, mas reservamo-nos o direito de remover conteúdo que viole estes termos.</p>
+
+    <h2>6. Encontros Presenciais</h2>
+    <p>O FanMeet facilita ligações entre pessoas com interesses comuns, mas não organiza, supervisiona nem participa em encontros presenciais. O FanMeet não é responsável por qualquer situação que ocorra antes, durante ou após um encontro presencial entre utilizadores.</p>
+    <div class="warning">
+      <strong>⚠️ Os participantes encontram-se inteiramente por sua conta e risco.</strong> Recomendamos fortemente:
+    </div>
+    <ul>
+      <li>Encontrar-se em locais públicos e bem iluminados</li>
+      <li>Informar um amigo ou familiar dos teus planos antes do encontro</li>
+      <li>Confiar nos teus instintos — se algo não parecer bem, vai-te embora</li>
+      <li>Não partilhares a tua morada com pessoas que acabaste de conhecer</li>
+      <li>Levar o telemóvel carregado e com dados móveis ativos</li>
+      <li>Não te deslocares para locais isolados com pessoas desconhecidas</li>
+    </ul>
+
+    <h2>7. Funcionalidade de Proximidade e Localização</h2>
+    <div class="infobox">O FanMeet nunca partilha a localização exata do utilizador com outros utilizadores. O cálculo de proximidade é feito exclusivamente no servidor, e apenas é comunicado que dois utilizadores estão próximos — sem revelar coordenadas.</div>
+    <p>O utilizador compreende e aceita que:</p>
+    <ul>
+      <li>A funcionalidade de Radar requer permissão de acesso à localização GPS</li>
+      <li>A localização é processada no servidor e descartada após o cálculo</li>
+      <li>O Radar pode ser ativado e desativado a qualquer momento</li>
+      <li>A deteção de proximidade pode não ser 100% precisa devido a limitações do GPS</li>
+    </ul>
+
+    <h2>8. Mensagens e Encontros</h2>
+    <p>As mensagens entre utilizadores são efémeras e desaparecem automaticamente ao fim de 12 horas após desbloqueio. O utilizador aceita que:</p>
+    <ul>
+      <li>O chat só é desbloqueado com o consentimento de ambos os utilizadores</li>
+      <li>O encontro físico só é facilitado com o consentimento explícito de ambos</li>
+      <li>O FanMeet não é responsável por interações fora da plataforma</li>
+      <li>O FanMeet não garante a segurança de encontros físicos entre utilizadores</li>
+    </ul>
+
+    <h2>9. Alterações às Funcionalidades Gratuitas</h2>
+    <p>As funcionalidades disponíveis na versão gratuita podem ser alteradas a qualquer momento. Os utilizadores serão notificados com antecedência mínima de 30 dias antes de qualquer limitação entrar em vigor.</p>
+
+    <h2>10. Limitação de Responsabilidade</h2>
+    <p>O FanMeet é fornecido "tal como está", sem garantias de disponibilidade contínua. Na máxima extensão permitida pela lei aplicável, Humberto Ferreira não é responsável por danos diretos ou indiretos resultantes da utilização da aplicação, interações entre utilizadores, perda de dados, ou indisponibilidade temporária do serviço.</p>
+
+    <h2>11. Lei Aplicável</h2>
+    <p>Estes termos são regidos pela lei portuguesa. Qualquer litígio será submetido à jurisdição dos tribunais competentes de Portugal.</p>
+
+    <div class="contact">
+      <p>Questões sobre os termos?</p>
+      <a href="mailto:humberto.ferreira0074@gmail.com">humberto.ferreira0074@gmail.com</a>
+    </div>
+  </div>
+
+  <!-- PRIVACIDADE -->
+  <div id="privacidade" class="section">
+    <div class="meta">
+      <span>📄 Versão 1.0</span>
+      <span>📅 Maio 2026</span>
+      <span>🇪🇺 RGPD Compliant</span>
+    </div>
+
+    <h2>1. Responsável pelo Tratamento</h2>
+    <p><strong>Nome:</strong> Humberto Ferreira<br>
+    <strong>Email:</strong> humberto.ferreira0074@gmail.com<br>
+    <strong>País:</strong> Portugal</p>
+
+    <h2>2. Dados Pessoais Recolhidos</h2>
+    <p><strong>Dados fornecidos pelo utilizador:</strong></p>
+    <ul>
+      <li>Nome de utilizador (username)</li>
+      <li>Endereço de email</li>
+      <li>Fotografia de perfil (opcional)</li>
+      <li>Biografia (opcional, máximo 160 caracteres)</li>
+    </ul>
+    <p><strong>Dados recolhidos automaticamente:</strong></p>
+    <ul>
+      <li>Localização GPS — apenas quando o Radar está ativo, processada e descartada após cálculo</li>
+      <li>Identificador do dispositivo — para envio de notificações push</li>
+      <li>Dados de utilização — grupos aderidos, interações na app</li>
+    </ul>
+
+    <h2>3. Finalidade e Base Legal</h2>
+    <ul>
+      <li>Prestação do serviço FanMeet — execução do contrato (art. 6.º, n.º 1, al. b) do RGPD)</li>
+      <li>Envio de notificações push — consentimento (art. 6.º, n.º 1, al. a) do RGPD)</li>
+      <li>Segurança e prevenção de fraude — interesse legítimo (art. 6.º, n.º 1, al. f) do RGPD)</li>
+    </ul>
+
+    <h2>4. Tratamento Especial da Localização</h2>
+    <div class="infobox">Privacy by Design: a localização é processada exclusivamente no servidor, nunca partilhada com outros utilizadores, e descartada imediatamente após o cálculo de proximidade. Não existe histórico de percursos.</div>
+    <ul>
+      <li>A localização só é enviada ao servidor quando o Radar está ativo</li>
+      <li>Apenas o último ponto é armazenado — sem histórico</li>
+      <li>Quando o Radar é desativado, a localização é apagada da base de dados</li>
+      <li>Nenhuma coordenada GPS é enviada para outros dispositivos</li>
+    </ul>
+
+    <h2>5. Partilha de Dados com Terceiros</h2>
+    <p>Os dados pessoais não são vendidos, alugados ou partilhados com terceiros para fins comerciais. São partilhados apenas com prestadores de serviços essenciais:</p>
+    <ul>
+      <li>Supabase Inc. — base de dados e autenticação</li>
+      <li>Expo / Google — envio de notificações push</li>
+      <li>Google / Apple — autenticação social (OAuth), se o utilizador optar</li>
+    </ul>
+
+    <h2>6. Conservação dos Dados</h2>
+    <ul>
+      <li>Dados de conta — enquanto ativa + 30 dias após eliminação</li>
+      <li>Mensagens — eliminadas automaticamente 12 horas após desbloqueio</li>
+      <li>Localização GPS — descartada imediatamente após cálculo</li>
+      <li>Registos de proximidade — 90 dias</li>
+    </ul>
+
+    <h2>7. Os Teus Direitos (RGPD)</h2>
+    <ul>
+      <li>Direito de acesso — saber quais os dados que tratamos</li>
+      <li>Direito de retificação — corrigir dados incorretos</li>
+      <li>Direito ao apagamento — eliminar conta e todos os dados</li>
+      <li>Direito de oposição — opor-se ao tratamento baseado em interesse legítimo</li>
+      <li>Direito à portabilidade — receber dados em formato legível por máquina</li>
+      <li>Direito de retirar consentimento — a qualquer momento</li>
+    </ul>
+    <p>Para exercer estes direitos: <strong>humberto.ferreira0074@gmail.com</strong>. Resposta em até 30 dias.</p>
+    <p>Podes ainda apresentar reclamação à <strong>CNPD</strong> em <a href="https://www.cnpd.pt" target="_blank">www.cnpd.pt</a>.</p>
+
+    <h2>8. Segurança dos Dados</h2>
+    <ul>
+      <li>Comunicações encriptadas com HTTPS/TLS</li>
+      <li>Controlo de acesso com Row Level Security na base de dados</li>
+      <li>Tokens de autenticação JWT com expiração automática</li>
+      <li>Acesso aos dados restrito a pessoal autorizado</li>
+    </ul>
+
+    <h2>9. Menores</h2>
+    <p>O FanMeet não é destinado a utilizadores com menos de 16 anos. Se tomarmos conhecimento de que um menor utilizou a aplicação, eliminaremos os dados imediatamente.</p>
+
+    <div class="contact">
+      <p>Questões sobre privacidade?</p>
+      <a href="mailto:humberto.ferreira0074@gmail.com">humberto.ferreira0074@gmail.com</a>
+    </div>
+  </div>
+
+  <!-- SEGURANÇA -->
+  <div id="seguranca" class="section">
+    <div class="meta">
+      <span>🛡️ Guia de Segurança</span>
+      <span>📅 Maio 2026</span>
+    </div>
+
+    <h2>A tua segurança é importante</h2>
+    <p>O FanMeet foi desenhado com privacidade e segurança como princípios centrais. A tua localização exata nunca é partilhada com outros utilizadores — apenas confirmamos que estás perto de alguém do mesmo grupo.</p>
+    <p>No entanto, quando decides encontrar-te com alguém pessoalmente, a tua segurança depende também das tuas escolhas. Aqui ficam as nossas recomendações:</p>
+
+    <h2>Antes do encontro</h2>
+    <ul>
+      <li>Informa um amigo ou familiar de onde vais e com quem</li>
+      <li>Combina o encontro num local público e bem iluminado</li>
+      <li>Verifica o perfil da pessoa na app antes de te encontrares</li>
+      <li>Carrega o telemóvel antes de sair</li>
+    </ul>
+
+    <h2>Durante o encontro</h2>
+    <ul>
+      <li>Encontra-te sempre em locais públicos — cafés, praças, centros comerciais</li>
+      <li>Confia nos teus instintos — se algo não parecer bem, vai-te embora sem hesitar</li>
+      <li>Não partilhes a tua morada, local de trabalho ou outros dados pessoais sensíveis</li>
+      <li>Não te desloques para locais isolados com pessoas que acabaste de conhecer</li>
+      <li>Mantém o telemóvel acessível e com dados móveis ativos</li>
+    </ul>
+
+    <h2>Privacidade na app</h2>
+    <ul>
+      <li>Podes desativar o Radar a qualquer momento — ninguém saberá onde estás</li>
+      <li>Podes ativar o modo invisível por grupo nas definições do Radar</li>
+      <li>Podes bloquear qualquer utilizador diretamente no chat</li>
+      <li>Podes reportar comportamentos inadequados no menu "..." de qualquer perfil ou chat</li>
+    </ul>
+
+    <h2>Reportar um problema</h2>
+    <p>Se tiveres uma experiência negativa ou vires comportamento inadequado na app, reporta diretamente no perfil do utilizador ou envia-nos um email. Levamos todos os reportes a sério.</p>
+
+    <div class="contact">
+      <p>Reportar comportamento inadequado ou problema de segurança:</p>
+      <a href="mailto:humberto.ferreira0074@gmail.com">humberto.ferreira0074@gmail.com</a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  FanMeet &nbsp;•&nbsp; Humberto Ferreira &nbsp;•&nbsp; Portugal &nbsp;•&nbsp; v1.0 Maio 2026
+</footer>
+
+<script>
+function show(id, el) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  el.classList.add('active');
+  return false;
+}
+</script>
+
+</body>
+</html>
